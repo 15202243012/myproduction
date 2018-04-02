@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2048小游戏</title>
+	<link rel="stylesheet" href="2048.css">
+	<script src="2048.js"></script>
+</head>
+<body>
+	<p>历史最高分：<span id="top">0</span><br>得分：<span id="score">0</span></p>
+	<ul id="gridBox"></ul>
+	<div id="gameOver">
+		<div><!-- 背景 --></div>
+		<p>
+			游戏结束!<br>
+			得分：<span id="final"></span><br>
+			<a class="btn" onclick="game.start()">重新开始</a>
+		</p>
+	</div>
+</body>
+</html>
